@@ -28,4 +28,4 @@ Now place this file with the rest of the codes and run [train_chatbot.py](https:
 
 ## Launch 
 
-Run  speech_recog.py  speech_drone.py  speech.py  chatbot.py  to get your interactable chatbot drone.
+Run  speech_recog.py , speech_drone.py , speech.py , chatbot.py  to get your interactable chatbot drone.
