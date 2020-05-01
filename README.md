@@ -6,17 +6,17 @@ A small ML based interactable software to control done
 
 This repo aims to develop a software which accepts speech from user and process it to follow comands and to speak back.
 
-speech_recog.py  gets the input from user and publishes to 'direction' topic, 'voice' topic and 'chat' topic depends on the string.
+[speech_recog.py](https://github.com/Aeroclub-IITM/Voicebot/blob/master/speech_recog.py)  gets the input from user and publishes to 'direction' topic, 'voice' topic and 'chat' topic depends on the string.
 
-chatbot.py  subscribes values from 'voice' topic ,runs a classifier and publishes the values to 'chat' topic.
+[chatbot.py](https://github.com/Aeroclub-IITM/Voicebot/blob/master/chatbot.py)  subscribes values from 'voice' topic ,runs a classifier and publishes the values to 'chat' topic.
 
-speech.py  subscibes values from 'chat' topic and converts to voice.
+[speech.py](https://github.com/Aeroclub-IITM/Voicebot/blob/master/speech.py)  subscibes values from 'chat' topic and converts to voice.
 
-speech_drone  subscribes values from 'direction' topic and converts to mavros messages.
+[speech_drone](https://github.com/Aeroclub-IITM/Voicebot/blob/master/speech_drone.py)  subscribes values from 'direction' topic and converts to mavros messages.
 
-intents.json  is the dataset.
+[intents.json](https://github.com/Aeroclub-IITM/Voicebot/blob/master/intents.json)  is the dataset.
 
-chatgui.py  is a chatbot in which you can type in to get response.This program is to check if your chatbot is working properly.
+[chatgui.py](https://github.com/Aeroclub-IITM/Voicebot/blob/master/chatgui.py)  is a chatbot in which you can type in to get response.This program is to check if your chatbot is working properly.
 
 ## To train your voicebot
 
@@ -24,7 +24,7 @@ To train your own model, first delete 'chatbot_model.h5','classes.pkl' and 'word
 
 Now you need to add label,sample inputs and set of outputs in intends.json. Install a json editor or just drag and drop on to your browser and copy.Now create a text file and paste it. After editing your text file rename file as intends.json.
 
-Now place this file with the rest of the codes and run train_chatbot.py.You will see the deleted files popping up.Now check if the chatbot working properly with chatgui.py.
+Now place this file with the rest of the codes and run [train_chatbot.py](https://github.com/Aeroclub-IITM/Voicebot/blob/master/train_chatbot.py).You will see the deleted files popping up.Now check if the chatbot working properly with chatgui.py.
 
 ## Launch 
 
