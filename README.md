@@ -1,6 +1,6 @@
 # Voicebot
 
-A small ML based interactable software to control done
+A small ML based interactable software to control drone
 
 ## Introduction
 
