@@ -24,7 +24,7 @@ Install ros, sitl and mavros. Follow these steps.
 
 Install these libraries.
 
-'sudo apt-get install portaudio19-dev python-all-dev python3-all-dev && sudo pip3 install pyaudio'
+sudo apt-get install portaudio19-dev python-all-dev python3-all-dev && sudo pip3 install pyaudio
 
 pip3 install SpeechRecognition
 
