@@ -18,6 +18,27 @@ This repo aims to develop a software which accepts speech from user and process 
 
 [chatgui.py](https://github.com/Aeroclub-IITM/Voicebot/blob/master/chatgui.py)  is a chatbot in which you can type in to get response.This program is to check if your chatbot is working properly.
 
+## Installation
+
+Install ros, sitl and mavros. Follow these steps.
+
+Install these libraries.
+
+'sudo apt-get install portaudio19-dev python-all-dev python3-all-dev && sudo pip3 install pyaudio'
+
+pip3 install SpeechRecognition
+
+pip3 install gTTS
+
+Pip3 install playsound
+
+Pip3 install keras
+
+Pip3 install tensorflow
+
+python3 -m nltk.downloader all
+
+
 ## To train your voicebot
 
 To train your own model, first delete 'chatbot_model.h5','classes.pkl' and 'words.pkl'.
