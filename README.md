@@ -32,9 +32,9 @@ pip3 install gTTS
 
 pip3 install playsound
 
-pip3 install keras
-
 pip3 install tensorflow
+
+pip3 install keras
 
 python3 -m nltk.downloader all
 
