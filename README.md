@@ -26,11 +26,11 @@ Install these libraries.
 
 sudo apt-get install portaudio19-dev python-all-dev python3-all-dev && sudo pip3 install pyaudio
 
-pip3 install SpeechRecognition
+pip install SpeechRecognition
 
 pip install gTTS
 
-pip3 install playsound
+pip install playsound
 
 pip install tensorflow
 
