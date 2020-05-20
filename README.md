@@ -28,7 +28,7 @@ sudo apt-get install portaudio19-dev python-all-dev python3-all-dev && sudo pip3
 
 pip3 install SpeechRecognition
 
-pip3 install gTTS
+pip install gTTS
 
 pip3 install playsound
 
