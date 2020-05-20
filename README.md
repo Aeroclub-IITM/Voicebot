@@ -30,11 +30,11 @@ pip3 install SpeechRecognition
 
 pip3 install gTTS
 
-Pip3 install playsound
+pip3 install playsound
 
-Pip3 install keras
+pip3 install keras
 
-Pip3 install tensorflow
+pip3 install tensorflow
 
 python3 -m nltk.downloader all
 
