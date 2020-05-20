@@ -6,7 +6,7 @@
         },
         {"tag": "making",
          "patterns": ["Who made you?", "Who is your creater?", "Who is your father?"],
-         "responses": ["Aerospace club made me", "Aerospace club", "Aerospace club head"],
+         "responses": ["Aerospace club made me", "Aerospace club", "Aerospace club is myy father"],
          "context": [""]
         },
         {"tag": "controls",
