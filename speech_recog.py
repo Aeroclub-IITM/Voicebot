@@ -32,7 +32,7 @@ def talker():
     t = text.split(" ")
     k="terminate"
     if str(t[0]) in ("right","left","ascend","down","take","spin","come","go","position"):
-        m="Ginni going to "
+        m="Friday going to "
         pub3.publish(text)
         text=m+" "+text
         pub2.publish(text) 

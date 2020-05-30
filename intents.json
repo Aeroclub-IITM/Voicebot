@@ -1,7 +1,7 @@
 {"intents": [
         {"tag": "name",
          "patterns": ["What is your name?", "Who are you?", "Your name please","What are you?"],
-         "responses": ["Hello, my name is Ginni drone ", "Hi, i am Ginni drone ", "I am a drone named Ginni"],
+         "responses": ["Hello, my name is Friday ", "Hi, i am Friday ", "I am a drone named Friday"],
          "context": [""]
         },
         {"tag": "making",
