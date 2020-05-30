@@ -20,7 +20,7 @@ This repo aims to develop a software which accepts speech from user and process 
 
 ## Installation
 
-Install ros, sitl and mavros. Follow these steps.
+Install ros, sitl and mavros. Follow these [steps](https://github.com/Aeroclub-IITM/Installation-SITL-Gazebo-ROS).
 
 Install these libraries.
 
